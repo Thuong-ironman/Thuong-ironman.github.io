@@ -1,7 +1,7 @@
-baseURL = 'http://saral-hugo-theme.pages.dev'
+baseURL = 'https://thuong-ironman.github.io/'
 languageCode = 'en-us'
-title = 'Saral : A simple hugo theme'
-author = "dipeshsingh253"
+title = 'Saral : A simple engineer blog'
+author = "thuongpham"
 
 # theme = 'saral'
 pygmentsCodefences = true
