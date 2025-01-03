@@ -1,23 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Category - My New Hugo Site</title>
-        <link>https://example.org/categories/</link>
-        <description>Categories - Category - My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://example.org/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Documentation</title>
-    <link>https://example.org/categories/documentation/</link>
-    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://example.org/categories/documentation/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Markdown</title>
-    <link>https://example.org/categories/markdown/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://example.org/categories/markdown/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Thuong Pham Blog</title>
+    <link>https://Thuong-ironman.github.io/categories/</link>
+    <description>Recent content in Categories on Thuong Pham Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://Thuong-ironman.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Syntax</title>
+      <link>https://Thuong-ironman.github.io/categories/syntax/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://Thuong-ironman.github.io/categories/syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>https://Thuong-ironman.github.io/categories/themes/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://Thuong-ironman.github.io/categories/themes/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>
