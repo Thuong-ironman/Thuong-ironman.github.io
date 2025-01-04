@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thuong Pham Blog</title>
+    <title>Welcome to my Blog!</title>
     <link>https://Thuong-ironman.github.io/</link>
-    <description>Recent content on Thuong Pham Blog</description>
+    <description>Recent content on Welcome to my Blog!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
@@ -44,10 +44,24 @@
       <description>&lt;p&gt;Ciao! I&amp;rsquo;m Pham Cong Thuong (a.k.a. Elio), welcome to my blog! I&amp;rsquo;m a robotics software engineer and machine learning lover based in Genova, Italy.&lt;/p&gt;&#xA;&lt;p&gt;I mostly work on vision system on humanoid robot, especially on event-camera, rgb camera and lidar. My recent intellectual interest is in the three-pound thing making everything of the world - BRAIN (neuroscience). I have been fascinated by the BRAIN PBS shows and books of David Eagleman (Brain and Livewired). With the convergence of several technologies, powered by computational sciences, I think we are at the door of decoding the most mysterious thing in the world!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Contact</title>
+      <title>Portfolio</title>
       <link>https://Thuong-ironman.github.io/contact/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://Thuong-ironman.github.io/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample 1</title>
+      <link>https://Thuong-ironman.github.io/blog/sample1/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://Thuong-ironman.github.io/blog/sample1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample 2</title>
+      <link>https://Thuong-ironman.github.io/blog/sample-2/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://Thuong-ironman.github.io/blog/sample-2/</guid>
       <description></description>
     </item>
   </channel>
