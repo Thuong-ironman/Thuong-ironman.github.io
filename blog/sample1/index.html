@@ -72,14 +72,12 @@
   
   <meta name="description" content="Localisation and Navigation
 
-
 State Estimation
-
-
 What is a state estimator?
 There are different definitions, according to the domian of application considered.
 In a very broad sense, it can be defined as an algorithm that, given a sequence of measurements, reconstructs the internal state of a system. The measurements are collected from sensors.
 Examples of sensors for UAVs:
+
 
 GPS;
 Magnetometer;
@@ -353,16 +351,14 @@ Usually, dynamic estimators use sensor readings collected at different time inst
     
   </header>
 
-  <section><h2 id="localisation-and-navigation">Localisation and Navigation</h2>
+  <section><h1 id="localisation-and-navigation">Localisation and Navigation</h1>
 <ol>
-<li>
-<h1 id="state-estimation">State Estimation</h1>
-</li>
-</ol>
-<h1 id="what-is-a-state-estimator">What is a state estimator?</h1>
-<p>There are different definitions, according to the domian of application considered.
+<li>State Estimation
+What is a state estimator?
+There are different definitions, according to the domian of application considered.
 In a very broad sense, it can be defined as an algorithm that, given a sequence of measurements, reconstructs the internal state of a system. The measurements are collected from sensors.
-Examples of sensors for UAVs:</p>
+Examples of sensors for UAVs:</li>
+</ol>
 <ul>
 <li>GPS;</li>
 <li>Magnetometer;</li>
@@ -374,14 +370,14 @@ Examples of sensors for UAVs:</p>
 <li>LiDAR</li>
 <li>And neuromophic sensors (Event cameras) - the one that I am doing research in recent year</li>
 </ul>
-<h1 id="static-vs-dynamic">Static vs dynamic</h1>
-<p>The state estimates are different depending on the nature of the state and on the number and types of the available sensors.
+<p>Static vs dynamic
+The state estimates are different depending on the nature of the state and on the number and types of the available sensors.
 Static estimators are used whenever the state can be determined with one single collections of measurements. In other words,
 when the sensors give information on all the components of the state.
 Dynamic estimators are used when the state can be reconstruced using the sensors and some other additional information constraints on the state.
 Usually, dynamic estimators use sensor readings collected at different time instants and combine them with the state dynamic.</p>
-<h1 id="what-is-the-state">What is the state?</h1>
-<p>Usually the state represents the entire n-dimensional configuration of the system given the problem we have to solve. It is usually represented as a vector s
+<p>What is the state?
+Usually the state represents the entire n-dimensional configuration of the system given the problem we have to solve. It is usually represented as a vector s
 in the vector space S</p>
 </section>
 
