@@ -3,7 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://Thuong-ironman.github.io/</loc>
-    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Thuong-ironman.github.io/blog/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Thuong-ironman.github.io/blog/sample-2/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Thuong-ironman.github.io/blog/sample1/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://Thuong-ironman.github.io/post/math-typesetting/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
@@ -59,16 +68,7 @@
     <loc>https://Thuong-ironman.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Thuong-ironman.github.io/blog/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://Thuong-ironman.github.io/contact/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Thuong-ironman.github.io/blog/sample1/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://Thuong-ironman.github.io/blog/sample-2/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
 </urlset>
