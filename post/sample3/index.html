@@ -61,7 +61,7 @@
   />
 
   
-  <title>Tags - Welcome to my Blog!</title>
+  <title>Perception systems - Welcome to my Blog!</title>
 
   
   <meta name="theme-color" />
@@ -70,12 +70,21 @@
   
   
   
-  
-  <meta
-    name="description"
-    content="A personal blog"
-  />
-  <meta name="author" content="Pham Thuong" />
+  <meta name="description" content="Camera
+Camera Transformation
+
+
+Extrinsic camera matrix converts points from the world coordinates to camera coordinates, and depend on the position and orientation of the camera.
+
+World-to-camera: 3D-3D projection. Rotation and translation.
+
+
+
+Intrinsic camera matrix convert points from the camera coordinates to the pixel coordinates, and depend on the camera properties ( focal length, pixel dimensions, optical center, skew coefficient, lens distortion)
+
+
+Camera-to-image: 3D-2D projection. Loss of information (depth). Depends on the camera model." />
+  <meta name="author" content="thuong.pham" />
   
 
   
@@ -113,6 +122,12 @@
 
   
   
+  <script
+    defer
+    src="https://Thuong-ironman.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
 
   
   
@@ -137,33 +152,33 @@
   
   
   
-  <meta itemprop="name" content="Tags">
+  <meta itemprop="name" content="Perception systems">
+  <meta itemprop="description" content="How robot see the world">
   <meta itemprop="datePublished" content="2025-04-27T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-04-27T00:00:00+00:00">
+  <meta itemprop="wordCount" content="83">
   
-  <meta property="og:url" content="https://Thuong-ironman.github.io/tags/">
+  <meta property="og:url" content="https://Thuong-ironman.github.io/post/sample3/">
   <meta property="og:site_name" content="Welcome to my Blog!">
-  <meta property="og:title" content="Tags">
+  <meta property="og:title" content="Perception systems">
+  <meta property="og:description" content="How robot see the world">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-04-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-27T00:00:00+00:00">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tags">
+  <meta name="twitter:title" content="Perception systems">
+  <meta name="twitter:description" content="How robot see the world">
 
   
   
-  <link
-    rel="alternate"
-    type="application/rss&#43;xml"
-    href="https://Thuong-ironman.github.io/tags/index.xml"
-    title="Welcome to my Blog!"
-  />
-  
 
   
-  <link rel="canonical" href="https://Thuong-ironman.github.io/tags/" />
+  <link rel="canonical" href="https://Thuong-ironman.github.io/post/sample3/" />
   
   
 </head>
@@ -312,20 +327,79 @@
     >
       
 
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">Perception systems</h1>
+
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Apr 27, 2025</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>thuong.pham</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="camera">Camera</h1>
+<p><strong>Camera Transformation</strong></p>
+<ul>
+<li>
+<p>Extrinsic camera matrix converts points from the world coordinates to camera coordinates, and depend on the position and orientation of the camera.</p>
+<ul>
+<li>World-to-camera: 3D-3D projection. Rotation and translation.</li>
+</ul>
+</li>
+<li>
+<p>Intrinsic camera matrix convert points from the camera coordinates to the pixel coordinates, and depend on the camera properties ( focal length, pixel dimensions, optical center, skew coefficient, lens distortion)</p>
+<ul>
+<li>
+<p>Camera-to-image: 3D-2D projection. Loss of information (depth). Depends on the camera model.</p>
+</li>
+<li>
+<p>Image-to-pixel: 2D-2D projection. Continuous to discrete. Quantization and origin shift.</p>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg !leading-[1.2] *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  >
+    
+    
+    <a class="ltr:ml-auto rtl:mr-auto justify-end pl-3" href="https://Thuong-ironman.github.io/post/sample-2/"
+      ><span>Kalman and Bayesian Filters. How a car know its position?</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
 
 
-<h1 class="mb-14">#Tags</h1>
-
-
-
-
-
-
-
- 
-
-
-
+  
+</article>
 
 
     </main>
