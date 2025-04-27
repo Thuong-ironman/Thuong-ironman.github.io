@@ -61,7 +61,7 @@
   />
 
   
-  <title>404 Page not found - Welcome to my Blog!</title>
+  <title>Design methods for unmanned vehicles - Welcome to my Blog!</title>
 
   
   <meta name="theme-color" />
@@ -70,12 +70,32 @@
   
   
   
-  
-  <meta
-    name="description"
-    content="A personal blog"
-  />
-  <meta name="author" content="Pham Thuong" />
+  <meta name="description" content="Localisation and Navigation
+
+State Estimation
+What is a state estimator?
+There are different definitions, according to the domian of application considered.
+In a very broad sense, it can be defined as an algorithm that, given a sequence of measurements, reconstructs the internal state of a system. The measurements are collected from sensors.
+Examples of sensors for UAVs:
+
+
+GPS;
+Magnetometer;
+Inertial Measurement Units;
+Gyroscopes;
+(Stereo) cameras;
+RGB-D cameras;
+Radio-Frequency Systems: Ultra-Wide Band (UWB), Radio Frequency IDentification (RFID);
+LiDAR
+And neuromophic sensors (Event cameras) - the one that I am doing research in recent year
+
+Static vs dynamic
+The state estimates are different depending on the nature of the state and on the number and types of the available sensors.
+Static estimators are used whenever the state can be determined with one single collections of measurements. In other words,
+when the sensors give information on all the components of the state.
+Dynamic estimators are used when the state can be reconstruced using the sensors and some other additional information constraints on the state.
+Usually, dynamic estimators use sensor readings collected at different time instants and combine them with the state dynamic." />
+  <meta name="author" content="thuong.pham" />
   
 
   
@@ -113,6 +133,12 @@
 
   
   
+  <script
+    defer
+    src="https://Thuong-ironman.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
 
   
   
@@ -137,24 +163,33 @@
   
   
   
-  <meta itemprop="name" content="404 Page not found">
+  <meta itemprop="name" content="Design methods for unmanned vehicles">
+  <meta itemprop="description" content="Unnmaned Vehicles are one of the few inventions that have left our world and landed on other planets.">
+  <meta itemprop="datePublished" content="2025-03-28T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-03-28T00:00:00+00:00">
+  <meta itemprop="wordCount" content="224">
   
-  <meta property="og:url" content="https://Thuong-ironman.github.io/404.html">
+  <meta property="og:url" content="https://Thuong-ironman.github.io/post/sample1/">
   <meta property="og:site_name" content="Welcome to my Blog!">
-  <meta property="og:title" content="404 Page not found">
+  <meta property="og:title" content="Design methods for unmanned vehicles">
+  <meta property="og:description" content="Unnmaned Vehicles are one of the few inventions that have left our world and landed on other planets.">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-03-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-28T00:00:00+00:00">
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="404 Page not found">
+  <meta name="twitter:title" content="Design methods for unmanned vehicles">
+  <meta name="twitter:description" content="Unnmaned Vehicles are one of the few inventions that have left our world and landed on other planets.">
 
   
   
 
   
-  <link rel="canonical" href="https://Thuong-ironman.github.io/404.html" />
+  <link rel="canonical" href="https://Thuong-ironman.github.io/post/sample1/" />
   
   
 </head>
@@ -302,11 +337,77 @@
       class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
     >
       
-<h1
-  class="absolute inset-x-8 bottom-20 top-0 flex items-center justify-center text-9xl"
->
-  404
-</h1>
+
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">Design methods for unmanned vehicles</h1>
+
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Mar 28, 2025</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>thuong.pham</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h1 id="localisation-and-navigation">Localisation and Navigation</h1>
+<ol>
+<li>State Estimation
+What is a state estimator?
+There are different definitions, according to the domian of application considered.
+In a very broad sense, it can be defined as an algorithm that, given a sequence of measurements, reconstructs the internal state of a system. The measurements are collected from sensors.
+Examples of sensors for UAVs:</li>
+</ol>
+<ul>
+<li>GPS;</li>
+<li>Magnetometer;</li>
+<li>Inertial Measurement Units;</li>
+<li>Gyroscopes;</li>
+<li>(Stereo) cameras;</li>
+<li>RGB-D cameras;</li>
+<li>Radio-Frequency Systems: Ultra-Wide Band (UWB), Radio Frequency IDentification (RFID);</li>
+<li>LiDAR</li>
+<li>And neuromophic sensors (Event cameras) - the one that I am doing research in recent year</li>
+</ul>
+<p>Static vs dynamic
+The state estimates are different depending on the nature of the state and on the number and types of the available sensors.
+Static estimators are used whenever the state can be determined with one single collections of measurements. In other words,
+when the sensors give information on all the components of the state.
+Dynamic estimators are used when the state can be reconstruced using the sensors and some other additional information constraints on the state.
+Usually, dynamic estimators use sensor readings collected at different time instants and combine them with the state dynamic.</p>
+<p>What is the state?
+Usually the state represents the entire n-dimensional configuration of the system given the problem we have to solve. It is usually represented as a vector s
+in the vector space S</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
 
     </main>
 

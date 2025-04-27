@@ -6,28 +6,21 @@
     <description>Recent content in Posts on Welcome to my Blog!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Thuong-ironman.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A beautiful algorithm in Reiforcement learning - TD learning</title>
-      <link>https://Thuong-ironman.github.io/post/math-typesetting/</link>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://Thuong-ironman.github.io/post/math-typesetting/</guid>
-      <description>&lt;p&gt;TD learning&lt;/p&gt;</description>
+      <title>Kalman and Bayesian Filters. How a car know its position?</title>
+      <link>https://Thuong-ironman.github.io/post/sample-2/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://Thuong-ironman.github.io/post/sample-2/</guid>
+      <description>&lt;p&gt;Sensors are noisy. The world is full of data and events that we want to measure and track, but we cannot rely on sensors to give us perfect information. The GPS in my car reports altitude. Each time I pass the same point on the road, it reports a slightly different altitude.&#xA;I work on computer vision, and I  need to track moving objects in images, and computer vision algorithms create very noisy and unreliable results.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://Thuong-ironman.github.io/post/markdown-syntax/</link>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://Thuong-ironman.github.io/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>https://Thuong-ironman.github.io/post/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://Thuong-ironman.github.io/post/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2&gt;&lt;/h2&gt;</description>
+      <title>Design methods for unmanned vehicles</title>
+      <link>https://Thuong-ironman.github.io/post/sample1/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://Thuong-ironman.github.io/post/sample1/</guid>
+      <description>&lt;h1 id=&#34;localisation-and-navigation&#34;&gt;Localisation and Navigation&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;State Estimation&#xA;What is a state estimator?&#xA;There are different definitions, according to the domian of application considered.&#xA;In a very broad sense, it can be defined as an algorithm that, given a sequence of measurements, reconstructs the internal state of a system. The measurements are collected from sensors.&#xA;Examples of sensors for UAVs:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GPS;&lt;/li&gt;&#xA;&lt;li&gt;Magnetometer;&lt;/li&gt;&#xA;&lt;li&gt;Inertial Measurement Units;&lt;/li&gt;&#xA;&lt;li&gt;Gyroscopes;&lt;/li&gt;&#xA;&lt;li&gt;(Stereo) cameras;&lt;/li&gt;&#xA;&lt;li&gt;RGB-D cameras;&lt;/li&gt;&#xA;&lt;li&gt;Radio-Frequency Systems: Ultra-Wide Band (UWB), Radio Frequency IDentification (RFID);&lt;/li&gt;&#xA;&lt;li&gt;LiDAR&lt;/li&gt;&#xA;&lt;li&gt;And neuromophic sensors (Event cameras) - the one that I am doing research in recent year&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Static vs dynamic&#xA;The state estimates are different depending on the nature of the state and on the number and types of the available sensors.&#xA;Static estimators are used whenever the state can be determined with one single collections of measurements. In other words,&#xA;when the sensors give information on all the components of the state.&#xA;Dynamic estimators are used when the state can be reconstruced using the sensors and some other additional information constraints on the state.&#xA;Usually, dynamic estimators use sensor readings collected at different time instants and combine them with the state dynamic.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
